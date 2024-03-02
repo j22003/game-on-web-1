@@ -19,6 +19,7 @@
     background-size: cover;
     margin-top: 20px;
     margin-left: 20px;
+    position: relative;
 
 
 }
@@ -27,6 +28,7 @@
         width: 100px;
         height: 100px;
         margin-bottom: 100px;
+        position: relative;
         /* after GAME OVER */
         -moz-user-select: none;
         -webkit-user-select: none;
