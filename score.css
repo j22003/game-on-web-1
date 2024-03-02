@@ -1,0 +1,9 @@
+.score{
+    margin: 0em 1em;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.score span{
+    color: rgb(134, 197, 41);
+}

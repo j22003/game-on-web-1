@@ -1,0 +1,36 @@
+#board{
+    height: 640px;
+    width: 640px;
+    background: green;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background: url(https://static.vecteezy.com/system/resources/previews/000/433/183/original/vector-brown-soil-texture-background.jpg);
+    background-size: cover;
+    border: 3px solid #fff;
+    border-radius: 25px;
+    
+}
+#board div{
+    /* board = 540*540, divide into 3*3 --> 180*180 per div */
+    width: 180px;
+    height: 180px;
+    background: url(https://webstockreview.net/images/pipe-clipart-pixel-art-6.png);
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+#board div img{
+        /* all img tags in div tag */
+        width: 100px;
+        height: 100px;
+        margin-bottom: 100px;
+        /* after GAME OVER */
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+         user-select: none;
+    
+}

@@ -1,0 +1,16 @@
+#aother{
+    background: #feffed;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+#aother h3{
+    text-transform: capitalize;
+    margin-top: 15px;
+    padding-bottom: 15px;
+
+}
+#margin-left{
+    margin-left: 2em;
+    text-transform: capitalize;
+}

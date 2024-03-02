@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:cursive;
+    color: green;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.ZxUTv13Ko2BPC1Nng2yQAQHaEo&pid=Api&P=0&h=220);
+    background-size: cover;
+}
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+    /* From https://css.glass */
+    background: rgba(241, 245, 239, 0.27);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(8.7px);
+    backdrop-filter: blur(8.7px);
+    border: 1px solid rgba(241, 245, 239, 1);
+}
+header .nav a{
+        /* From https://css.glass */
+        background: rgba(241, 245, 239, 0.27);
+        border-radius: 5px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        -webkit-backdrop-filter: blur(8.7px);
+        backdrop-filter: blur(8.7px);
+        border: 1px solid rgba(241, 245, 239, 1);
+        padding: 0px 20px;
+        font-weight: 400;
+        text-transform: capitalize;
+}
+.logo{
+           font-size: 1.5em;
+           font-weight: 700;
+           letter-spacing: 2px;
+           text-transform: uppercase;
+           /* From https://css.glass */
+           background: rgba(241, 245, 239, 0.27);
+           border-radius: 5px;
+           box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+           -webkit-backdrop-filter: blur(8.7px);
+           backdrop-filter: blur(8.7px);
+           border: 1px solid rgba(241, 245, 239, 1);
+           padding: 0px 20px;
+}
